@@ -5,4 +5,5 @@ compiler.xml
 encodings.xml
 jarRepositories.xml
 vcs.xml
-target
+/target/
+misc.xml
