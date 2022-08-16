@@ -54,36 +54,4 @@ class Account {
     public int hashCode() {
         return Objects.hash(login, name, age, numberPoints);
     }
-
-    public String getLogin() {
-        return login;
-    }
-
-    public void setLogin(String login) {
-        this.login = login;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAge() {
-        return age;
-    }
-
-    public void setAge(String age) {
-        this.age = age;
-    }
-
-    public String getNumberPoints() {
-        return numberPoints;
-    }
-
-    public void setNumberPoints(String numberPoints) {
-        this.numberPoints = numberPoints;
-    }
 }
